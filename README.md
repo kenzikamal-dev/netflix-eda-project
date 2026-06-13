@@ -79,3 +79,20 @@ The goal is to understand user behavior patterns using age, gender, and occupati
 git clone https://github.com/kenzikamal-dev/netflix-eda-project.git
 cd netflix-eda-project
 jupyter notebook
+
+## 📊 Visualizations
+
+### Gender Distribution
+![Gender Distribution](reports/gender_distribution.png)
+
+### Average Age by Gender
+![Average Age by Gender](reports/avg_age_by_gender.png)
+
+### Top 10 Occupations
+![Top 10 Occupations](reports/top_10_occupations.png)
+
+### Occupation Distribution
+![Occupation Distribution](reports/occupation_distribution.png)
+
+### Age Distribution by Gender
+![Age Distribution by Gender](reports/age_by_gender.png)
