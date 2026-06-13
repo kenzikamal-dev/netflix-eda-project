@@ -1,31 +1,43 @@
-# 🎬 Netflix User Demographics EDA Project
+# 🎬 Netflix User Demographics Analysis
+
+## 👨‍💻 Author
+**Data Analyst:** Kamal Kenzi  
+
+---
 
 ## 📌 Project Overview
 
-This project performs Exploratory Data Analysis (EDA) on a user demographics dataset containing 943 users.
+This project is an Exploratory Data Analysis (EDA) of a user demographics dataset containing 943 users.  
+The goal is to understand user behavior patterns using age, gender, and occupation data.
 
-The goal is to understand user behavior patterns using age, gender, and occupation.
+The analysis focuses on:
+- User segmentation
+- Demographic trends
+- Behavioral insights
 
 ---
 
 ## 📂 Dataset Information
 
-- Total Records: 943 users  
-- Total Features: 5  
+| Feature | Description |
+|----------|-------------|
+| user_id | Unique user identifier |
+| age | Age of user |
+| gender | Male / Female |
+| occupation | User profession |
+| zip_code | Location code |
 
-### Columns:
-- user_id → Unique ID  
-- age → User age  
-- gender → Male / Female  
-- occupation → Job type  
-- zip_code → Location code  
+- Total Records: **943 users**
+- Total Features: **5 columns**
+- Missing Values: **None**
 
 ---
 
-## 🛠 Tools Used
+## 🛠 Tools & Technologies
 
-- Python  
+- Python 🐍  
 - Pandas  
+- NumPy  
 - Matplotlib  
 - Seaborn  
 - Jupyter Notebook  
@@ -33,66 +45,49 @@ The goal is to understand user behavior patterns using age, gender, and occupati
 
 ---
 
-## 🔍 Key Analysis
-
-- Data inspection  
-- Gender distribution  
-- Age analysis  
-- Occupation analysis  
-- GroupBy analysis  
-- Data visualization  
-
----
-
 ## 📊 Key Insights
 
-- Majority users are male (~70%)  
-- Average age is ~34 years  
-- Students are the largest group  
-- Retired users have highest age (~63 years)  
-- Age distribution varies by occupation  
+✔ Majority of users are **Male (~70%)**  
+✔ Average user age is around **34 years**  
+✔ **Students** are the largest occupation group  
+✔ Age varies significantly across occupations  
+✔ Retired users have the highest average age (~63 years)
 
 ---
 
 ## 📈 Visualizations
 
-- Gender distribution chart  
-- Occupation distribution chart  
-- Age histogram  
-- Boxplot (gender vs age)  
-- Average age by gender  
-
----
-
-## 💡 Business Value
-
-- Helps user segmentation  
-- Supports recommendation systems  
-- Improves targeted marketing  
-- Understands customer demographics  
-
----
-
-## 🚀 Run Project
-
-```bash
-git clone https://github.com/kenzikamal-dev/netflix-eda-project.git
-cd netflix-eda-project
-jupyter notebook
-
-## 📊 Visualizations
-
 ### Gender Distribution
 ![Gender Distribution](reports/gender_distribution.png)
 
 ### Average Age by Gender
-![Average Age by Gender](reports/avg_age_by_gender.png)
+![Average Age](reports/avg_age_by_gender.png)
 
 ### Top 10 Occupations
-![Top 10 Occupations](reports/top_10_occupations.png)
+![Top Occupations](reports/top_10_occupations.png)
 
 ### Occupation Distribution
 ![Occupation Distribution](reports/occupation_distribution.png)
 
 ### Age Distribution by Gender
-![Age Distribution by Gender](reports/age_by_gender.png)
+![Age by Gender](reports/age_by_gender.png)
+
+---
+
+## 💡 Business Impact
+
+This analysis can help:
+
+- 🎯 Customer segmentation  
+- 🎯 Recommendation systems  
+- 🎯 Targeted marketing strategies  
+- 🎯 Understanding user behavior patterns  
+
+---
+
+## 🚀 How to Run This Project
+
+```bash
+git clone https://github.com/kenzikamal-dev/netflix-eda-project.git
+cd netflix-eda-project
+jupyter notebook
